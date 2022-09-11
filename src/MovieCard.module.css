@@ -1,0 +1,9 @@
+.movieCard {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.movieImage {
+    border-radius: 10px;
+    background-color: gray;
+}
