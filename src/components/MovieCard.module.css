@@ -1,11 +1,11 @@
 .movieCard {
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .movieCard:hover {
-    opacity: 0,8;
+    opacity: 0.9;
 }
 
 .movieImage {
@@ -15,7 +15,7 @@
 
 @media (max-width: 560px) {
     .movieImage {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
-  }
+}

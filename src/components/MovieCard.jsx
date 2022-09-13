@@ -2,11 +2,10 @@ import { Link } from "react-router-dom";
 import styles from "./MovieCard.module.css";
 
 export function MovieCard({ movie }) {
-  console.log(styles);
-  const imageUrl = "https://image.tmdb.org/t/p/w300" + movie.poster_path;
+  const imageUrl = "https://image.tmdb.org/t/p/w500" + movie.poster_path;
   return (
-    <li className={styles.MovieCard}>
-      <Link to={"/movie/" + movie.id}>
+    <li className={styles.movieCard}>
+      <Link to={"/movies/" + movie.id}>
         <img
           width={230}
           height={345}
