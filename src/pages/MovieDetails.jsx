@@ -40,6 +40,9 @@ export function MovieDetails() {
         <p>
           <strong>Description:</strong> {movie.overview}
         </p>
+        <p>
+          <strong>Relase date:</strong> {movie.release_date}
+        </p>
       </div>
     </div>
   );
